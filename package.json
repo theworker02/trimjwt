@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/trimjwt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trim encode/decode helpers for jwt payloads in pipelines.",
+  "bin": {
+    "trimjwt": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/trimjwt.git"
+  },
+  "homepage": "https://theworker02.github.io/trimjwt/",
+  "keywords": [
+    "trim",
+    "jwt",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
